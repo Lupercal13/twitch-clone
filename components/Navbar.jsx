@@ -58,7 +58,7 @@ const Navbar = () => {
                 <div className="py-1">
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="/"
                         className={classNames(
                           active
@@ -68,12 +68,12 @@ const Navbar = () => {
                         )}
                       >
                         Home
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="/#live"
                         className={classNames(
                           active
@@ -83,12 +83,12 @@ const Navbar = () => {
                         )}
                       >
                         Live Channels
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="/#categories"
                         className={classNames(
                           active
@@ -98,7 +98,7 @@ const Navbar = () => {
                         )}
                       >
                         Categories
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                 </div>
